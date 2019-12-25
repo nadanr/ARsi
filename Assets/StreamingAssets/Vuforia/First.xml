@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="rva" size="1.000000 1.000000"/>
+        <ImageTarget name="parasite-host.Right" size="4.000000 5.000000"/>
+        <ImageTarget name="parasite-host.Top" size="20.000000 4.001059"/>
+        <ImageTarget name="parasite-host.Bottom" size="20.000000 4.001059"/>
+        <ImageTarget name="parasite-host.Left" size="4.000000 5.000000"/>
+        <ImageTarget name="parasite-host.Back" size="20.000000 5.001323"/>
+        <ImageTarget name="parasite-host.Front" size="20.000000 5.001323"/>
+        <MultiTarget name="parasite-host">
+            <Part name="parasite-host.Left" translation="-10.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="parasite-host.Right" translation="10.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="parasite-host.Front" translation="0 0 2.0" rotation="AD: 1 0 0 0"/>
+            <Part name="parasite-host.Back" translation="0 0 -2.0" rotation="AD: 0 1 0 180"/>
+            <Part name="parasite-host.Top" translation="0 2.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="parasite-host.Bottom" translation="0 -2.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
